@@ -1,5 +1,5 @@
 locals {
-    common_tags {
+    common_tags = {
        Project = var.Project
        Environment = var.environment
        Terrafrom = "true"
